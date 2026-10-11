@@ -1,0 +1,24 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+#Environnement virtuel Python (recrée avec requirements.txt)
+.venv/
+
+#Fichiers compilés géénrés automatiquement par Python
+__pycache__/
+*.__pyc
+
+# Secrets : clé d'API du LLM (étape 5)
+.env
+
+# Données générées : reproductibles via src/generate_data.py
+data/*
+!data/.gitkeep
+
+# Sorties de notebooks Jupyter
+.ipynb_checkpoints/
+
+# Fichiers système et éditeur
+Thumbs.db
+.vscode/
+
+
