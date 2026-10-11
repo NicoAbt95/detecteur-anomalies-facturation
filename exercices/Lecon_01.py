@@ -17,3 +17,4 @@ print(contrat)  # lire la valeur modifiée du contrat
 #Exercice de calcul de la facture d'électricité
 facture = round(consommation * contrat["prix_kwh"] + abonnement, 2) # calcul de la facture d'électricité
 print(f"La facture du client {nom_client} est de : {facture:.2f} €")
+
