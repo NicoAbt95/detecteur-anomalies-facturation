@@ -26,6 +26,6 @@ for i in range(1, 11):
     contrat = generer_contrat(i)
     contrats.append(contrat)
     contrat["facture"] = calculer_facture(consommation, contrat["prix_kwh"], ABONNEMENTS[contrat["puissance_kva"]])  # ajout de la facture calculée au contrat
-    print (f"{contrat['identifiant']} - {contrat['nom_client']} - {contrat['puissance_kva']} kVA - {contrat['prix_kwh']} €/kWh - Actif : {contrat['actif'] } - Facture calculée : {contrat['facture']:.2f} €")  # affichage des informations du contrat et de la facture calculée
+    print(f"{contrat['identifiant']} - {contrat['nom_client']} - {contrat['puissance_kva']} kVA - {contrat['prix_kwh']} €/kWh - Actif : {contrat['actif'] } - Facture calculée : {contrat['facture']:.2f} €")  # affichage des informations du contrat et de la facture calculée
 
 print(contrats)
