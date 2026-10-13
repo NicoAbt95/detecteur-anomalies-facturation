@@ -4,3 +4,4 @@ scikit-learn
 faker
 streamlit
 jupyter
+matplotlib
